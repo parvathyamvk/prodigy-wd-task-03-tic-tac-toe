@@ -1,59 +1,98 @@
-# Tic-Tac-Toe Game
+<div align="center">
 
-A browser-based two-player Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Players take turns placing X and O on a 3 × 3 board. The game detects wins and draws and allows players to start a new round using the Reset button.
+# Tic-Tac-Toe
+
+**A classic two-player game built with HTML, CSS, and JavaScript.**
+
+[**Play the Live Demo**](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
+
+</div>
+
+---
+
+## Overview
+
+Tic-Tac-Toe is a browser-based game for two players. Players take turns marking spaces on a 3 × 3 grid with **X** and **O**. The game checks for a winning combination after each move and identifies a draw when the board is full.
 
 ## Features
 
-- Two-player gameplay on a 3 × 3 board
-- Alternating turns between X and O
-- Win detection across rows, columns, and diagonals
-- Draw detection when all cells are filled without a winner
-- Reset button to clear the board and start again
-- Simple, clean interface
+- **Two-player mode** — take turns playing as X and O.
+- **Win detection** — checks all eight possible winning combinations: rows, columns, and diagonals.
+- **Draw detection** — recognises when all nine cells are filled without a winner.
+- **Reset control** — clear the board and start a new round at any time.
+- **Immediate result messages** — displays an alert when a player wins or the game ends in a draw.
+- **Automatic new round** — resets the board after a win or draw.
 
-## Technologies Used
+## Built With
 
-- HTML5
-- CSS3
-- JavaScript
+| Technology | Purpose |
+|---|---|
+| HTML5 | Game structure and 3 × 3 board |
+| CSS3 | Layout, board styling, and button hover effect |
+| JavaScript | Player turns, game logic, win/draw checks, and reset behaviour |
+
+## Getting Started
+
+### Run locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/parvathyamvk/prodigy-wd-task-03-tic-tac-toe.git
+   ```
+
+2. Move into the project directory:
+
+   ```bash
+   cd prodigy-wd-task-03-tic-tac-toe
+   ```
+
+3. Open `index.html` in your web browser.
+
+No package installation or build process is required.
+
+## How to Play
+
+1. Player **X** takes the first turn.
+2. Select an empty square to place your mark.
+3. Player **O** takes the next turn.
+4. Continue taking turns until a player completes a row, column, or diagonal.
+5. If all nine squares are filled and nobody has won, the game is a draw.
+6. Select **Reset** to start a fresh game. The board also resets automatically after a win or draw.
 
 ## Project Structure
 
 ```text
 prodigy-wd-task-03-tic-tac-toe/
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+├── index.html    # Game page and board markup
+├── styles.css    # Page, board, cell, and button styling
+├── script.js     # Game interactions and win/draw logic
+└── README.md     # Project documentation
 ```
 
-## Run Locally
+## Implementation Notes
 
-1. Clone or download this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. Click an empty cell to place the current player's mark.
-
-No additional installation is required.
-
-## How to Play
-
-1. Player X starts the game.
-2. Players take turns selecting empty cells.
-3. The first player to complete a row, column, or diagonal wins.
-4. If all nine cells are filled and neither player wins, the game ends in a draw.
-5. Use **Reset** to clear the board and play another round.
+- The game starts with **X**.
+- A move is accepted only when the selected cell is empty.
+- The win checker evaluates the eight standard Tic-Tac-Toe winning patterns.
+- After a win or draw, the result is shown using a browser alert and the board is cleared.
 
 ## Live Demo
 
-Play the game here: [Tic-Tac-Toe Live Demo](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
+Try the deployed game:
+
+[https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
 
 ## Author
 
 **Parvathy A**
 
-- GitHub: [parvathyamvk](https://github.com/parvathyamvk)
+[GitHub Profile](https://github.com/parvathyamvk)
 
-## License
+---
 
-No license has been specified for this project.
+<div align="center">
+
+Made as part of the **PRODIGY Web Development Internship** task series.
+
+</div>
