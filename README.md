@@ -1,98 +1,110 @@
 <div align="center">
 
-# Tic-Tac-Toe
+# ❌⭕ Tic-Tac-Toe
 
-**A classic two-player game built with HTML, CSS, and JavaScript.**
+### A classic two-player game made with web technologies
 
-[**Play the Live Demo**](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
+<p>
+  <a href="https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/">
+    <img src="https://img.shields.io/badge/🎮_PLAY_LIVE_DEMO-6C63FF?style=for-the-badge" alt="Play Live Demo">
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
 </div>
 
 ---
 
-## Overview
+## 🌟 About the Project
 
-Tic-Tac-Toe is a browser-based game for two players. Players take turns marking spaces on a 3 × 3 grid with **X** and **O**. The game checks for a winning combination after each move and identifies a draw when the board is full.
+Tic-Tac-Toe is a simple and interactive browser game for **two players**. Players take turns placing **X** and **O** on a 3 × 3 grid. The game automatically checks for a winner or a draw and starts a fresh round after the result.
 
-## Features
+This project was developed as part of the **PRODIGY Web Development Internship** task series.
 
-- **Two-player mode** — take turns playing as X and O.
-- **Win detection** — checks all eight possible winning combinations: rows, columns, and diagonals.
-- **Draw detection** — recognises when all nine cells are filled without a winner.
-- **Reset control** — clear the board and start a new round at any time.
-- **Immediate result messages** — displays an alert when a player wins or the game ends in a draw.
-- **Automatic new round** — resets the board after a win or draw.
+## ✨ Features
 
-## Built With
+- 👥 **Two-player gameplay** – Play with alternating X and O turns.
+- 🏆 **Winner detection** – Identifies matching marks across rows, columns, and diagonals.
+- 🤝 **Draw detection** – Recognises when the board is full with no winner.
+- 🔄 **Automatic reset** – Clears the board after a win or draw.
+- 🎯 **Manual reset** – Start a new round using the Reset button.
+- ⚡ **Instant feedback** – Displays the game result through a browser alert.
 
-| Technology | Purpose |
+## 🛠️ Built With
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS and JavaScript" />
+</div>
+
+| Technology | Used for |
 |---|---|
-| HTML5 | Game structure and 3 × 3 board |
-| CSS3 | Layout, board styling, and button hover effect |
-| JavaScript | Player turns, game logic, win/draw checks, and reset behaviour |
+| HTML5 | Game layout and board structure |
+| CSS3 | Styling the game interface and board |
+| JavaScript | Player turns, game logic, win/draw detection, and reset |
 
-## Getting Started
+## 🎮 How to Play
 
-### Run locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/parvathyamvk/prodigy-wd-task-03-tic-tac-toe.git
-   ```
-
-2. Move into the project directory:
-
-   ```bash
-   cd prodigy-wd-task-03-tic-tac-toe
-   ```
-
-3. Open `index.html` in your web browser.
-
-No package installation or build process is required.
-
-## How to Play
-
-1. Player **X** takes the first turn.
-2. Select an empty square to place your mark.
+1. Player **X** starts the game.
+2. Click any empty square to place your mark.
 3. Player **O** takes the next turn.
-4. Continue taking turns until a player completes a row, column, or diagonal.
-5. If all nine squares are filled and nobody has won, the game is a draw.
-6. Select **Reset** to start a fresh game. The board also resets automatically after a win or draw.
+4. Continue until a player completes a row, column, or diagonal.
+5. If all nine squares are filled without a winner, the game ends in a draw.
+6. Select **Reset** to play again.
 
-## Project Structure
+## 🚀 Run Locally
+
+You can run this project directly in your browser. No additional packages are required.
+
+```bash
+# Clone the repository
+git clone https://github.com/parvathyamvk/prodigy-wd-task-03-tic-tac-toe.git
+
+# Move into the project folder
+cd prodigy-wd-task-03-tic-tac-toe
+```
+
+Then open `index.html` in your preferred web browser.
+
+## 📁 Project Structure
 
 ```text
 prodigy-wd-task-03-tic-tac-toe/
-├── index.html    # Game page and board markup
-├── styles.css    # Page, board, cell, and button styling
-├── script.js     # Game interactions and win/draw logic
-└── README.md     # Project documentation
+│
+├── index.html       # Game page structure
+├── styles.css       # Game styling
+├── script.js        # Game logic and interactions
+└── README.md        # Project documentation
 ```
 
-## Implementation Notes
+## 🔗 Live Demo
 
-- The game starts with **X**.
-- A move is accepted only when the selected cell is empty.
-- The win checker evaluates the eight standard Tic-Tac-Toe winning patterns.
-- After a win or draw, the result is shown using a browser alert and the board is cleared.
+<div align="center">
 
-## Live Demo
+### Try the game!
 
-Try the deployed game:
+[![Play Tic-Tac-Toe](https://img.shields.io/badge/Play_Tic--Tac--Toe-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
 
 [https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/](https://parvathyamvk.github.io/prodigy-wd-task-03-tic-tac-toe/)
 
-## Author
+</div>
+
+## 👩‍💻 Author
 
 **Parvathy A**
 
-[GitHub Profile](https://github.com/parvathyamvk)
+[![GitHub](https://img.shields.io/badge/GitHub-parvathyamvk-181717?style=for-the-badge&logo=github)](https://github.com/parvathyamvk)
 
 ---
 
 <div align="center">
 
-Made as part of the **PRODIGY Web Development Internship** task series.
+**⭐ If you like this project, consider giving the repository a star!**
+
+Made with ❤️ as part of the Prodigy Web Development Internship.
 
 </div>
